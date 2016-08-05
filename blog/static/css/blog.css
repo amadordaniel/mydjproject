@@ -58,3 +58,5 @@ img.bg {
 h1 a {
     color: #0687AB;
 }
+#myCarousel { margin: -20px 0 20px 0; }
+.carousel-inner { max-height: 400px !important; }
