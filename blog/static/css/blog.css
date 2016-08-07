@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,400italic,500,700,900);
 
 html {
-    background: url(../images/bg.png) no-repeat center center fixed;
+    background: url(../images/bg2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,10 +10,29 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin-top: 45px;
+    margin-top: 0px;
 }
 
 .container {position: relative;}
+
+.navbar-brand {
+    height: 80px;
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
 
 img.bg {
     min-height: 100%;
@@ -36,6 +55,17 @@ img.bg {
 
 .jumbotron p { font-size: 14px; text-align: justify; margin-top: 20px;}
 
+.navbar-default {
+    background-image: -webkit-linear-gradient(top,#c8bdbf 0,#f8f8f8 100%);
+    background-image: -o-linear-gradient(top,#c8bdbf 0,#f8f8f8 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#c8bdbf),to(#f8f8f8));
+    background-image: linear-gradient(to bottom,#c8bdbf 0,#f8f8f8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffc8bdbf', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
 h1 a {
     color: #0687AB;
 }
+#myCarousel { margin: -20px 0 20px 0; }
+.carousel-inner { max-height: 400px !important; }
