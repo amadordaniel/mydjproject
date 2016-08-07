@@ -56,11 +56,11 @@ img.bg {
 .jumbotron p { font-size: 14px; text-align: justify; margin-top: 20px;}
 
 .navbar-default {
-    background-image: -webkit-linear-gradient(top,#c8bdbf 0,#f8f8f8 100%);
-    background-image: -o-linear-gradient(top,#c8bdbf 0,#f8f8f8 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#c8bdbf),to(#f8f8f8));
-    background-image: linear-gradient(to bottom,#c8bdbf 0,#f8f8f8 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffc8bdbf', GradientType=0);
+    background-image: -webkit-linear-gradient(top,#c5c8ca 0,#f8f8f8 100%);
+    background-image: -o-linear-gradient(top,#c5c8ca 0,#f8f8f8 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#c5c8ca),to(#f8f8f8));
+    background-image: linear-gradient(to bottom,#c5c8ca 0,#f8f8f8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc5c8ca', endColorstr='#fff8f8f8', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
